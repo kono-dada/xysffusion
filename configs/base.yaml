@@ -1,0 +1,13 @@
+model:
+  features:
+  - 128
+  - 256
+  - 512
+  n_conditions: 100
+  n_steps: 500
+  name: CondDenoisingDiffusion
+train:
+  batch_size: 128
+  lr: 0.0003
+  n_epochs: 100
+  save_every: 30
